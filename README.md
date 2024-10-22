@@ -1,8 +1,6 @@
-# React + Vite
+# Sushovan's Personal Blog Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A MERN stack project I'm currently working on, which I intend to deploy live, which will serve as a platform for me to post my blogs.
+Might integrate into my own personal website, as I keep on working on this project.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Stay tuned!
