@@ -49,4 +49,4 @@ const blogSchema = mongoose.Schema(
     }
 );
 
-export const blogModel = mongoose.model("blogs", blogSchema);
+export const Blog = mongoose.model("blogs", blogSchema);
