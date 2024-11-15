@@ -22,6 +22,8 @@ router.get('/:id', async (request, response)=>{
 
     } catch(error) {
         console.log(error);
-        return response.status(500).send({ message: error.message });
+        return response.status(500).send({ message: error.message }); 
     }
 });
+
+export default router; 

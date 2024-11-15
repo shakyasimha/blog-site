@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import { PORT, mongoDBURI } from './config.js';
+import blogRoute from './routes/blogRoute.js';
 import { MongoClient } from 'mongodb';
 
 // Setting up express 
@@ -18,6 +19,8 @@ app.get('/', (request, response)=>{
     console.log(request);
     return response.send(200).send('Backend is up and running');
 });
+
+app.use('/blog', blogRoute);
 
 // app.listen(PORT, ()=>{
 //     console.log(`App listening to port ${PORT}`);
